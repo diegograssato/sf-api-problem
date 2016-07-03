@@ -1,0 +1,13 @@
+{
+    "name": "diegograssato/sf-api-problem",
+    "description": "A Symfony compatible response for the IETF Problem Details for HTTP APIs RFC",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "DTUX\\ApiProblem\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/symfony": "3.1.*",
+    }
+}
